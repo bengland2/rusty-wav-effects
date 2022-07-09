@@ -1,0 +1,10 @@
+[package]
+name = "sound_xform"
+version = "0.2.0"
+edition = "2022"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+hound = "3.4.0"
+clap = { version = "3.0", features = ["derive"] }
